@@ -1,0 +1,46 @@
+.notification-dot {
+    position: absolute;
+    top: 7;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    border: 2px solid white;
+    display: inline-block;
+}
+.nav-link {
+    position: relative;
+}
+.toast-container {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 9999;
+  }
+  .toast-body {
+    position: relative;
+  }
+  .progress-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    width: 0;
+    background-color: #00ff2a;
+    transition: width 5s linear;
+  }
+  .chart-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.chart-item {
+    width: 100%; 
+    margin-bottom: 20px;
+}
+@media (min-width: 576px) {
+    .chart-item {
+        width: 48%;
+    }
+}
